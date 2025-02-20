@@ -117,6 +117,15 @@ select:focus {
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
+select option {
+  background-color: white; 
+  color: black;
+}
+
+select:focus option {
+  background-color: white; 
+  color: black;
+}
 button {
   background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
   color: var(--white);
@@ -274,4 +283,17 @@ table button:hover {
   background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.operation button {
+  flex: 1;
+  margin: 0;
+  padding: 6px 12px;
+  white-space: nowrap;
 }
