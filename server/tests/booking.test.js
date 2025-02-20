@@ -22,7 +22,7 @@ describe('Booking API', () => {
               mutation {
                 createBooking(
                   guestName: "Rechal",
-                  contact: "rechal@123.com",
+                  phone: "rechal@123.com",
                   arrivalTime: "2025-02-19 19:00",
                   tableSize: 4
                 ) {
